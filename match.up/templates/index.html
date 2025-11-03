@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <title>My First Page</title>
+  <meta charset="UTF-8">
+  <title>MathUp</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <img src="static/assets/imagens/logo.png" alt="logo">  
-    <h1>A matemática do jeito que as escolas não mostram</h1>
-    <img src="static/assets/imagens/fundo.png" alt="ilustração">
 
+  <!-- SEÇÃO 1: topo escuro -->
+  <section class="topo">
+    <img src="static/assets/imagens/logo.png" alt="logo" class="logo">
+    <h1>A matemática do jeito que as escolas não mostram</h1>
+    <button class="btn">Criar conta</button>
+    <img src="static/assets/imagens/fundo.png" alt="fundo" class="fundo">
+  </section>
+
+  <!-- SEÇÃO 2: fundo claro -->
+  <section class="sobre">
     <h2>SOBRE NÓS</h2>
-    <P>A MATHUP surgiu como iniciativa de jovens apaixonados por matemática em tornar isso uma realidade mais próxima de cada criança, seja aquela que já sabe de tudo, ou a que quer aprender mais</P>
-    <img src="static/assets/imagens/logo2.png" alt="sobre nós">
+    <p>A MATHUP surgiu como uma iniciativa de jovens apaixonados por matemática...</p>
+    <img src="static/assets/imagens/logo2.png" alt="logo MathUp" class="logo2">
 
     <h3>NOSSOS PRINCÍPIOS</h3>
-    <img src="static/assets/imagens/principio1.png" alt="princípio 1">
-    <img src="static/assets/imagens/principio2.png" alt="princípio 2">
-    <img src="static/assets/imagens/principio3.png" alt="princípio 3">
+    <div class="principios">
+      <img src="static/assets/imagens/principio1.png" alt="Educação divertida">
+      <img src="static/assets/imagens/principio2.png" alt="Qualidade">
+      <img src="static/assets/imagens/principio3.png" alt="Inovação">
+    </div>
+  </section>
 
-    <h4>"A essência da matemática está na sua liberdade"</h4>
-    <h5>Georg Cantor</h5>
+  <!-- SEÇÃO 3: fundo escuro -->
+  <section class="final">
+    <blockquote>"A essência da matemática está na sua liberdade."</blockquote>
+    <p class="autor">— Georg Cantor</p>
 
-    <h6>QUEM SOMOS NÓS?</h6>
-    <img src="static/assets/imagens/ana.png" alt="equipe">
-    <h7> Ana Laura</h7>
-    <img src="static/assets/imagens/amanda.png" alt="equipe">
-    <h7> Amanda</h7>
-    <img src="static/assets/imagens/isabela.png" alt="equipe">
-    <h7> Isabela</h7>
-    <img src="static/assets/imagens/joao.png" alt="equipe">
-    <h7> João</h7>
-    <img src="static/assets/imagens/matheus.png" alt="equipe">
-    <h7> Matheus</h7>
-    
+    <h4>QUEM SOMOS NÓS?</h4>
+    <div class="equipe">
+      <div><img src="static/assets/imagens/ana.png" alt="Ana"><p>Ana Laura</p></div>
+      <div><img src="static/assets/imagens/amanda.png" alt="Amanda"><p>Amanda</p></div>
+      <div><img src="static/assets/imagens/isabela.png" alt="Isabela"><p>Isabela</p></div>
+      <div><img src="static/assets/imagens/joao.png" alt="João"><p>João</p></div>
+      <div><img src="static/assets/imagens/matheus.png" alt="Matheus"><p>Matheus</p></div>
+    </div>
+  </section>
+
 </body>
 </html>
+
