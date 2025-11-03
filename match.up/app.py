@@ -5,9 +5,6 @@ app = Flask(__name__)
 @app.get("/")
 def index():
     return render_template("index.html")
-@app.route('fração.html')
-def nova_pagina()
-    return render_template("fração.html")
 
     
 if __name__ == "__main__":
