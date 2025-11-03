@@ -20,7 +20,7 @@ body {
 
 /* fundo claro */
 .sobre {
-  background-color: #eae6df;
+  background-color: #D0D0D0;
   color: #2b2b2b;
   padding: 80px 20px;
   text-align: center;
@@ -31,13 +31,21 @@ body {
   margin: 15px;
 }
 
+.secaosobre p{
+  color : #2e2e2e;
+  text-align: left;
+  font-size: 22px;
+}
+
+
 /* fundo escuro final */
 .final {
   background-color: #1a1a1a;
-  padding: 80px 20px;
+  padding: 80px 20px; /* Espaçamento da seção */
   text-align: center;
   color: #f4d03f;
 }
+
 
 .equipe {
   display: flex;
@@ -45,18 +53,8 @@ body {
   flex-wrap: wrap;
   gap: 20px;
 }
-
 .equipe img {
   width: 80px;
   border-radius: 50%;
 }
 
-.btn {
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 30px;
-  padding: 10px 25px;
-  font-size: 1rem;
-  cursor: pointer;
-}
