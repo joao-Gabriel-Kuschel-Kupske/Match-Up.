@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.topo {
+  /* imagem de fundo */
+  background-image: url("static/assets/imagens/fundo.png");
+  background-size: cover;       /* cobre toda a largura */
+  background-position: center;  /* centraliza a imagem */
+  background-repeat: no-repeat; /* não repete */
+  
+  /* espaçamento e alinhamento */
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+  position: relative;
+}
+
+/* fundo claro */
+.sobre {
+  background-color: #eae6df;
+  color: #2b2b2b;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.principios img {
+  width: 120px;
+  margin: 15px;
+}
+
+/* fundo escuro final */
+.final {
+  background-color: #1a1a1a;
+  padding: 80px 20px;
+  text-align: center;
+  color: #f4d03f;
+}
+
+.equipe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.equipe img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
