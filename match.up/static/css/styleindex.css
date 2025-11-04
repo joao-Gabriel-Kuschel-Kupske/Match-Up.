@@ -41,10 +41,12 @@ h1 {
 
 .topo {
   /* imagem de fundo */
-  background-image: url("static/assets/imagens/fundo.png");
-  background-size: cover;       /* cobre toda a largura */
-  background-position: center;  /* centraliza a imagem */
-  background-repeat: no-repeat; /* não repete */
+   background-image: url("static/assets/imagens/fundo.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color:white;
+   padding: 100px 20px;
   
   /* espaçamento e alinhamento */
   text-align: center;
