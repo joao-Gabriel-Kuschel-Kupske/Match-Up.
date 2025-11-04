@@ -12,13 +12,15 @@
     <img src="static/assets/imagens/logo.png" alt="logo" class="logo">
   </div>
   <div class="button">
-    <a href="{{ url_for('entrar') }}" class="criar-link">Cadastrar</a>
+    <!-- CORREÇÃO: Usa 'formulario', que é a função que renderiza cadastro.html -->
+    <a href="{{ url_for('formulario') }}" class="criar-link">Cadastrar</a>
    </div>
   </header>
 
   <section class="topo">
     <h1>A matemática do jeito que as escolas não mostram</h1>
     
+    <!-- CORRETO: Usa 'entrar_pagina', que é a função que renderiza pag2.html -->
     <a href="{{ url_for('entrar_pagina') }}" class="btn1">Entrar</a>
     
     <img src="static/assets/imagens/fundo.png" alt="fundo" class="fundo">

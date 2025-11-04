@@ -14,7 +14,7 @@ CSV_FILENAME = 'dados.csv'
 @app.route("/")
 def index():
    
-   return render_template("cadastro.html")
+   return render_template("index.html")
 
 
 
