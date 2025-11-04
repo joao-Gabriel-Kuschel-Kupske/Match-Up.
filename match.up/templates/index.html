@@ -8,23 +8,22 @@
 <body>
 
   <header class="cima">
-  <div class="logo"></div>
+  <div class="logo">
     <img src="static/assets/imagens/logo.png" alt="logo" class="logo">
   </div>
-  <div class="button"></div>
-    <button class="login">Criar conta</button>
-    <button class="criar">Login</button>
+  <div class="button">
+    <a href="{{ url_for('entrar') }}" class="criar-link">Cadastrar</a>
    </div>
   </header>
 
-  <!-- SEÇÃO 1: topo com imagem -->
   <section class="topo">
     <h1>A matemática do jeito que as escolas não mostram</h1>
-    <button class="btn1">Criar conta</button>
+    
+    <a href="{{ url_for('entrar_pagina') }}" class="btn1">Entrar</a>
+    
     <img src="static/assets/imagens/fundo.png" alt="fundo" class="fundo">
   </section>
 
-  <!-- SEÇÃO 2: fundo claro -->
   <section class="sobre">
     <h2>SOBRE NÓS</h2>
     <p>A MATHUP surgiu como uma iniciativa de jovens apaixonados por matemática em tornar isso uma realidade mais próxima de cada criança, seja aquela que já sabe tudo ou a que quer aprender mais</p>
@@ -38,7 +37,6 @@
     </div>
   </section>
 
-  <!-- SEÇÃO 3: fundo escuro -->
   <section class="final">
     <blockquote>"A essência da matemática está na sua liberdade."</blockquote>
     <p class="autor">— Georg Cantor</p>
@@ -55,4 +53,3 @@
 
 </body>
 </html>
-
