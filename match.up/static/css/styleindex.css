@@ -112,14 +112,14 @@ h3 {
   font-size: 32px;
 }
 
-.sobre {
+.nos {
     display: flex;                     /* Coloca texto e imagem lado a lado */
     justify-content: space-between;    /* Espaço entre texto e imagem */
     align-items: center;               /* Alinha verticalmente */
     padding: 60px 100px;               /* Espaçamento interno */
     background-color: #dcdcdc;         /* (ou sua cor de fundo já existente) */
 }
-.sobre h2 {
+h2 {
     color: #f9b233;                    /* Amarelo do título */
     font-size: 32px;
     font-weight: 800;
