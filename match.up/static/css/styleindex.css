@@ -48,7 +48,7 @@ h1 {
 
 .topo {
   /* imagem de fundo */
-   background: url(static/assets/imagens/fundo.png);
+   background: url(static/assets/imagens/fundo.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -59,11 +59,7 @@ h1 {
   padding: 100px 20px;
   position: relative;
 }
-.topo img {
- background-image: url(static/assets/imagens/fundo.png);
-  width: 100%;
-  height: auto;
-}
+
 
 /* fundo claro */
 .sobre {
