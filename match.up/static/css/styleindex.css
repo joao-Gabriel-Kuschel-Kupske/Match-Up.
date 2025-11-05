@@ -89,12 +89,6 @@ h1{
 
 
 /* fundo claro */
-.sobre {
-  background-color: #D0D0D0;
-  color: #2b2b2b;
-  padding: 80px 20px;
-  text-align: left;
-}
 
 .principios {
   display: flex;
