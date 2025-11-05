@@ -59,6 +59,11 @@ h1 {
   padding: 100px 20px;
   position: relative;
 }
+.topo img {
+ background-image: url(static/assets/imagens/fundo.png);
+  width: 100%;
+  height: auto;
+}
 
 /* fundo claro */
 .sobre {
