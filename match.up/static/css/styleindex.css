@@ -74,7 +74,7 @@ h1{
     background-color: white;    /* Fundo branco */
     color: black;               /* Texto preto */
     border: none;               /* Sem borda */
-    border-radius: 8px;         /* Cantos levemente arredondados */
+    border-radius: 0px;         /* Cantos levemente arredondados */
     font-size: 18px;            /* Texto maior */
     font-weight: 700;           /* Negrito */
     text-decoration: none;      /* Remove o sublinhado */
