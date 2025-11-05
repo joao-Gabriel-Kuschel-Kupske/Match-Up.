@@ -136,15 +136,21 @@ h3 {
 }
 
 /* Faz o parágrafo ficar normal (sem quebrar palavra por palavra) */
+/* Corrige completamente o comportamento do texto */
 .sobre p {
-    color: #000000;                    
+    display: block !important;        /* Garante que o texto não vire flex ou grid */
+    white-space: normal !important;   /* Faz o texto quebrar como parágrafo */
+    word-spacing: normal !important;  /* Espaçamento normal entre palavras */
+    letter-spacing: normal !important;
+    text-align: justify;              /* Fica bonitinho */
+    line-height: 1.6;
+    color: #000;
     font-size: 18px;
-    line-height: 1.6;                  
     max-width: 550px;
-    text-align: justify;               /* Deixa o texto bonito */
-    white-space: normal;               /* Impede quebra forçada */
-    margin-top: 0;
+    margin: 0;
+    padding: 0;
 }
+
 
 .logo2 {
     width: 250px;                      
