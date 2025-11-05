@@ -96,13 +96,14 @@ h1{
   text-align: left;
 }
 
-.principios {
+.principios1 {
+  background-color: #dcdcdc;
   display: flex;
   justify-content: flex-start; /* imagens começam à esquerda */
   gap: 20px; /* espaço entre elas */
   padding: 20px 10px;
 }
-.principios img {
+.principios1 img {
   width: 300px; 
   height: auto;
 }
@@ -114,7 +115,7 @@ h3 {
 
 .nos {
     display: flex;                     /* Coloca texto e imagem lado a lado */
-    justify-content: center;    /* Espaço entre texto e imagem */
+    justify-content: flex-start;    /* Espaço entre texto e imagem */
     align-items: center;               /* Alinha verticalmente */
     padding: 60px 100px;               /* Espaçamento interno */
     background-color: #dcdcdc;         /* (ou sua cor de fundo já existente) */
