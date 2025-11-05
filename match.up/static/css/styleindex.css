@@ -114,34 +114,43 @@ h3 {
 
 
 .sobre {
-    display: flex;                     /* Deixa os elementos lado a lado */
-    justify-content: space-between;    /* Espaço entre o texto e a imagem */
-    align-items: center;               /* Centraliza verticalmente */
-    padding: 80px 100px 40px 100px;    /* Espaçamento superior/lateral */
-    background-color: #cfcfcf;         /* Mesmo fundo cinza da imagem */
-    gap: 50px;                         /* Espaço entre texto e logo */
+    display: flex;                     
+    justify-content: space-between;    
+    align-items: center;               
+    background-color: #cfcfcf;         
+    padding: 80px 100px 40px 100px;    
+    gap: 60px;                         
+}
+
+/* Agrupa o texto (h2 + p) mesmo sem uma div envolvente */
+.sobre h2, 
+.sobre p {
+    flex-basis: 50%;                   /* Ocupa metade da largura da seção */
 }
 
 .sobre h2 {
-    color: #f9b233;                    /* Amarelo do título */
+    color: #f9b233;                    
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
+/* Faz o parágrafo ficar normal (sem quebrar palavra por palavra) */
 .sobre p {
-    color: #000000;                    /* Texto preto */
+    color: #000000;                    
     font-size: 18px;
-    line-height: 1.6;                  /* Espaçamento entre linhas */
-    max-width: 600px;                  /* Largura do bloco de texto */
-    margin-bottom: 0;
+    line-height: 1.6;                  
+    max-width: 550px;
+    text-align: justify;               /* Deixa o texto bonito */
+    white-space: normal;               /* Impede quebra forçada */
+    margin-top: 0;
 }
 
 .logo2 {
-    width: 250px;                      /* Tamanho da logo */
-    height: auto;                      /* Mantém proporção */
-    margin-left: 40px;                 /* Espaço da esquerda */
-    flex-shrink: 0;                    /* Evita que a imagem diminua */
+    width: 250px;                      
+    height: auto;
+    flex-shrink: 0;                    
+    margin-left: 60px;
 }
 
 
