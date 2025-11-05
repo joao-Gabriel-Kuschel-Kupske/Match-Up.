@@ -95,9 +95,10 @@ h1{
   padding: 80px 20px;
   text-align: left;
 }
-
-.principios1 {
+.principios{
   background-color: #dcdcdc;
+}
+.principios1 {
   display: flex;
   justify-content: flex-start; /* imagens começam à esquerda */
   gap: 20px; /* espaço entre elas */
@@ -108,7 +109,6 @@ h1{
   height: auto;
 }
 h3 {
-  background-color: #dcdcdc;
   color: #8c52ff;
   text-align: center;
   font-size: 32px;
