@@ -67,10 +67,14 @@ h1 {
   gap: 20px; /* espaço entre elas */
   padding: 20px 10px;
 }
-
 .principios img {
-  width: 400px; 
+  width: 200px; 
   height: auto;
+}
+<h3> {
+  color: #8c52ff;
+  text-align: center;
+  font-size: 32px;
 }
 
 .secaosobre p{
