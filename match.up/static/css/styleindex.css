@@ -37,8 +37,8 @@ h1 {
 .criar-link {
     display: inline-block;
     padding: 10px 30px;           /* Tamanho do botão */
-    background-color: black;      /* Fundo preto */
-    color: white;                 /* Texto branco */
+    background-color: rgb(255, 255, 255);      /* Fundo preto */
+    color: rgb(0, 0, 0);                 /* Texto branco */
     border: none;                 /* Sem borda */
     border-radius: 100px;         /* Cantos bem arredondados */
     font-size: 16px;              /* Tamanho da fonte */
@@ -48,7 +48,7 @@ h1 {
     transition: 0.3s;             /* Efeito suave */
 }
 .criar-link:hover {
-    background-color: #333333;    /* Leve cinza escuro no hover */
+    background-color: #c0bfbf;    /* Leve cinza escuro no hover */
     transform: scale(1.05);       /* Leve aumento */
 }
 
