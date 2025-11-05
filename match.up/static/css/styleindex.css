@@ -48,11 +48,7 @@ h1 {
 
 .topo {
   /* imagem de fundo */
-<<<<<<< HEAD
-  background-image: url('static/assets/imagens/fundo.png');
-=======
   background-image: url('../assets/imagens/back.png');
->>>>>>> f27a62321ffcef1d828cf521fb62d338a8537b0e
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
