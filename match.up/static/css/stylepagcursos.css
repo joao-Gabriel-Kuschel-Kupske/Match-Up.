@@ -1,7 +1,6 @@
 body{
     background-color: #fff7d8;
 }
-
 .materias {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
