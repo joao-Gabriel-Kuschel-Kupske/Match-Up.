@@ -61,9 +61,16 @@ h1 {
   text-align: left;
 }
 
+.principios {
+  display: flex;
+  justify-content: flex-start; /* imagens começam à esquerda */
+  gap: 20px; /* espaço entre elas */
+  padding: 20px 10px;
+}
+
 .principios img {
-  width: 120px;
-  margin: 15px;
+  width: 400px; 
+  height: auto;
 }
 
 .secaosobre p{
