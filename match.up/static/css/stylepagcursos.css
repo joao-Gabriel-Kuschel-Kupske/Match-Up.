@@ -1,0 +1,60 @@
+body{
+    background-color: #fff7d8;
+}
+
+.materias {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    gap: 20px;
+}
+    
+.espaco {
+    grid-column: span 3 / span 3;
+}
+
+.aluno {
+    grid-column-start: 5;
+}
+
+.fracoes {
+    grid-column: span 5 / span 5;
+    grid-row: span 2 / span 2;
+    grid-row-start: 2;
+    background-color: #c5c6ff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0px;
+}
+
+
+.nome {
+    grid-column: span 4 / span 4;;
+}
+
+
+.sistemas {
+    grid-column: span 5 / span 5;
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+    background-color: #c5c6ff;
+
+}
+
+.equacoes {
+    grid-column: span 5 / span 5;
+    grid-row: span 2 / span 2;
+    grid-row-start: 6;
+    background-color: #c5c6ff;
+
+}
+
+.geometria {
+    grid-column: span 5 / span 5;
+    grid-row: span 2 / span 2;
+    grid-row-start: 8;
+    background-color: #c5c6ff;
+
+}
+ 
