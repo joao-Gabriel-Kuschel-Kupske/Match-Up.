@@ -48,20 +48,29 @@ h1 {
 
 .topo {
   /* imagem de fundo */
-   background: url('static/assets/imagens/fundo.jpg');
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   padding: 100px 20px;
-   width: 100%;
-   height: auto;
-  
+  background-image: url('assets/imagens/fundo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+
   /* espaçamento e alinhamento */
   text-align: center;
   padding: 100px 20px;
   position: relative;
 }
 
+/*conteudo do topo*/
+.conteudo {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+  border-radius: 10px;
+}
 
 /* fundo claro */
 .sobre {
