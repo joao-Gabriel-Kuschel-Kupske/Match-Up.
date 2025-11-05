@@ -53,13 +53,19 @@ h1 {
    background-position: center;
    background-repeat: no-repeat;
    padding: 100px 20px;
+   width: 100%;
+   height: auto;
   
   /* espaçamento e alinhamento */
   text-align: center;
   padding: 100px 20px;
   position: relative;
 }
-
+.topo img {
+ background-image: url(static/assets/imagens/fundo.jpg);
+  width: 100%;
+  height: auto;
+}
 
 /* fundo claro */
 .sobre {
