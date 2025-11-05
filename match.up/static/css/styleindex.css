@@ -17,6 +17,25 @@ h1 {
 .logo img{
   height:50px;
 }
+.criar-link {
+    display: inline-block;
+    padding: 10px 30px;           /* Tamanho do botão */
+    background-color: white;      /* Fundo branco */
+    color: black;                 /* Texto preto */
+    border: none;                 /* Sem borda */
+    border-radius: 100px;         /* Cantos bem curvados */
+    font-size: 16px;              /* Tamanho da fonte */
+    font-weight: 600;             /* Texto levemente em negrito */
+    text-decoration: none;        /* Remove o sublinhado */
+    cursor: pointer;              /* Mãozinha ao passar o mouse */
+    transition: 0.3s;             /* Animação suave */
+}
+
+.criar-link:hover {
+    background-color: #f2f2f2;    /* Leve cinza ao passar o mouse */
+    transform: scale(1.05);       /* Leve aumento */
+}
+
 .button button{
   border: none ;
   padding: 10px 20px;
