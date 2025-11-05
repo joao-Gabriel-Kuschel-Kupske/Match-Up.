@@ -112,29 +112,38 @@ h3 {
   font-size: 32px;
 }
 
-.nos {
-    display: flex;                     /* Coloca texto e imagem lado a lado */
-    justify-content: flex-start;    /* Espaço entre texto e imagem */
-    align-items: center;               /* Alinha verticalmente */
-    padding: 60px 100px;               /* Espaçamento interno */
-    background-color: #dcdcdc;         /* (ou sua cor de fundo já existente) */
+
+.sobre {
+    display: flex;                     /* Deixa os elementos lado a lado */
+    justify-content: space-between;    /* Espaço entre o texto e a imagem */
+    align-items: center;               /* Centraliza verticalmente */
+    padding: 80px 100px 40px 100px;    /* Espaçamento superior/lateral */
+    background-color: #cfcfcf;         /* Mesmo fundo cinza da imagem */
+    gap: 50px;                         /* Espaço entre texto e logo */
 }
-h2 {
+
+.sobre h2 {
     color: #f9b233;                    /* Amarelo do título */
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 800;
     margin-bottom: 20px;
 }
+
 .sobre p {
     color: #000000;                    /* Texto preto */
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.6;                  /* Espaçamento entre linhas */
-    max-width: 250px;                  /* Limita largura do texto */
+    max-width: 600px;                  /* Largura do bloco de texto */
+    margin-bottom: 0;
 }
+
 .logo2 {
     width: 250px;                      /* Tamanho da logo */
     height: auto;                      /* Mantém proporção */
+    margin-left: 40px;                 /* Espaço da esquerda */
+    flex-shrink: 0;                    /* Evita que a imagem diminua */
 }
+
 
 
 /* fundo escuro final */
