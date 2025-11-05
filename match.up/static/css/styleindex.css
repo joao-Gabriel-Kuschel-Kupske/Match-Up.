@@ -11,7 +11,7 @@ h1 {
   display: flex; /*ativa flexbox*/
   justify-content:space-between;
   align-items: center;
-  background-color: #1a1a1a;
+  background-color: #2b2b2b;
   padding:20px 40px;
 }
 .logo img{
