@@ -64,12 +64,11 @@ h1 {
   padding: 100px 20px;
   position: relative;
 }
-
 /*conteudo do topo*/
-.conteudo {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 50px;
-  border-radius: 10px;
+
+h1{
+  font-size: 48px;
+  color: #ffffff;
 }
 
 /* fundo claro */
