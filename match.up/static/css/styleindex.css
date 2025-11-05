@@ -20,7 +20,7 @@ h1 {
 .criar-link {
     display: inline-block;
     padding: 10px 30px;           /* Tamanho do botão */
-    background-color: white;      /* Fundo branco */
+    background-color: rgb(255, 255, 255);      /* Fundo branco */
     color: black;                 /* Texto preto */
     border: none;                 /* Sem borda */
     border-radius: 100px;         /* Cantos bem curvados */
@@ -31,7 +31,7 @@ h1 {
     transition: 0.3s;             /* Animação suave */
 }
 .criar-link:hover {
-    background-color: #f2f2f2;    /* Leve cinza ao passar o mouse */
+    background-color: #474747;    /* Leve cinza ao passar o mouse */
     transform: scale(1.05);       /* Leve aumento */
 }
 
