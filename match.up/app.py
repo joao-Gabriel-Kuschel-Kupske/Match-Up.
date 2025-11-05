@@ -95,6 +95,18 @@ def fracao():
 def introducao_a_geometria():
    return render_template("geometria.html")
 
+#------PDF aulas -------
+@app.route('/aulas/<nome>')
+def aula(nome):
+    pdf_path = url_for('static', filename=f'aulas/{nome}.pdf')
+    return render_template('aula.html', pdf_path=pdf_path)
+
+@app.route("/")
+def index():
+    arquivos = os.listdir('static/aulas')
+    aulas = [a.replace(".pdf", "") for a in arquivos]
+    return render_template("cursos.html", aulas=aulas)
+
 # ---- Execução --------- 
 
 if __name__ == "__main__":
