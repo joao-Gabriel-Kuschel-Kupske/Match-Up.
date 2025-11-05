@@ -95,9 +95,7 @@ h1{
   padding: 80px 20px;
   text-align: left;
 }
-.principios{
-  background-color: #dcdcdc;
-}
+
 .principios1 {
   display: flex;
   justify-content: flex-start; /* imagens começam à esquerda */
