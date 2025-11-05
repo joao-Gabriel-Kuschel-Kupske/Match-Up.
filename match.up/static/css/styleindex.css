@@ -34,22 +34,21 @@ h1 {
     background-color: #474747;    /* Leve cinza ao passar o mouse */
     transform: scale(1.05);       /* Leve aumento */
 }
-.criar-link {
+.por link {
     display: inline-block;
     padding: 10px 30px;           /* Tamanho do botão */
-    background-color: black;      /* Fundo preto */
-    color: white;                 /* Texto branco */
+    background-color: rgb(0, 0, 0);      /* Fundo branco */
+    color: rgb(255, 255, 255);                 /* Texto preto */
     border: none;                 /* Sem borda */
-    border-radius: 100px;         /* Cantos bem arredondados */
+    border-radius: 100px;         /* Cantos bem curvados */
     font-size: 16px;              /* Tamanho da fonte */
     font-weight: 600;             /* Texto levemente em negrito */
     text-decoration: none;        /* Remove o sublinhado */
     cursor: pointer;              /* Mãozinha ao passar o mouse */
-    transition: 0.3s;             /* Efeito suave */
+    transition: 0.3s;             /* Animação suave */
 }
-
-.criar-link:hover {
-    background-color: #333333;    /* Leve cinza escuro no hover */
+.por link:hover {
+    background-color: #474747;    /* Leve cinza ao passar o mouse */
     transform: scale(1.05);       /* Leve aumento */
 }
 
@@ -62,24 +61,11 @@ h1 {
   cursor: pointer;
   font-weight: 600;
   transition: 0.3s;
-}
-.button .login{
-  background-color: #000;
-}
-.button .login:hover{
-  background-color: #222222;
-}
-.button .criar{
-  background-color: #D0D0D0;
-}
-.button .criar:hover{
-  background-color: #fffefe;
-}
 
 
 .topo {
   /* imagem de fundo */
-   background: url(static/assets/imagens/fundo.png);
+   background: url(static/assets/imagens/fundo.jpg);
    background-size: cover;
    background-position: center;
    background-repeat: no-repeat;
@@ -90,6 +76,26 @@ h1 {
   padding: 100px 20px;
   position: relative;
 }
+.btn1 {
+    display: inline-block;
+    padding: 20px 60px;        /* Aumenta o tamanho do botão */
+    background-color: white;   /* Fundo branco */
+    color: black;              /* Texto preto */
+    border: none;              /* Sem borda */
+    border-radius: 0;          /* Deixa quadrado */
+    font-size: 18px;           /* Texto um pouco maior */
+    font-weight: 700;          /* Texto em negrito */
+    text-decoration: none;     /* Remove o sublinhado */
+    cursor: pointer;           /* Mãozinha no hover */
+    transition: 0.3s;          /* Efeito suave */
+}
+
+.btn1:hover {
+    background-color: #f2f2f2; /* Leve cinza no hover */
+    transform: scale(1.03);    /* Leve aumento */
+}
+
+
 
 /* fundo claro */
 .sobre {
