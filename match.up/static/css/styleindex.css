@@ -127,7 +127,7 @@ h2 {
 }
 .sobre p {
     color: #000000;                    /* Texto preto */
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.6;                  /* Espaçamento entre linhas */
     max-width: 500px;                  /* Limita largura do texto */
 }
