@@ -235,3 +235,44 @@ text-align: left;
     background-color: #c5c6ff;
 }
 
+.footer {
+    background-color: #111;              /* fundo escuro */
+    color: #f9b233;                      /* amarelo da MathUp */
+    text-align: center;                  /* centraliza texto */
+    padding: 40px 20px;                  /* espaço interno */
+    margin-top: 60px;                    /* separa do conteúdo acima */
+}
+
+.footer-content h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #ddd;                         /* cinza clarinho */
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;                           /* espaço entre links */
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #f9b233;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #2b2b2b;                      /* fica branco ao passar o mouse */
+}
+/* remove margem inferior de tudo antes do footer */
+section, div {
+    margin-bottom: 0;
+}
+
