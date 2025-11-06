@@ -181,6 +181,9 @@ text-align: left;
   text-align: center;
   color: #f4d03f;
 }
+  .autor {
+    margin-bottom: 100px;  /* AUMENTA O ESPAÇO ENTRE AUTOR E TÍTULO */
+}
 
 
 .equipe {
@@ -190,7 +193,7 @@ text-align: left;
   gap: 35px;
 }
 .equipe img {
-  width: 100px;
+  width: 120px;
   border-radius: 100%;
 }
 
