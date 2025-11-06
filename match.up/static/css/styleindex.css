@@ -144,16 +144,33 @@ h4{
     margin-bottom: 70px;
     color: #f9b233;
 }
+
 .nos{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap:40px;
+  gap:0px;
+  padding: 0px 50px;
 }
-.nos img{
-  width: 240px;
+.nos-texto{
+max-width: 600px;
+text-align: left;
+}
+.nos-texto h2{
+  color: #f9b233;
+  margin-bottom: 20px;
+}
+.nos-texto h5{
+  font-weight: normal;
+  line-height: 1.6;
+  color: #2e2e2e;
+}
+.nos-imagem img{
+  width: 400px;
   height: auto;
+  display: block;
 }
+
 
 
 
