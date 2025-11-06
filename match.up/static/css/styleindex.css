@@ -114,14 +114,17 @@ h3 {
     font-weight: 800;
     margin-bottom: 20px;
 }
-
-
-
 .logo2 {
     width: 300px;                      
     height: auto;
     flex-shrink: 0;                    
     margin-left: 30px;
+}
+h5{
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: f9b233;
 }
 
 
@@ -139,11 +142,11 @@ h3 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 35px;
 }
 .equipe img {
-  width: 80px;
-  border-radius: 50%;
+  width: 100px;
+  border-radius: 100%;
 }
 
 
