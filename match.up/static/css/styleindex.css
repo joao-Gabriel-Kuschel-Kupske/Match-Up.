@@ -120,11 +120,17 @@ h3 {
     flex-shrink: 0;                    
     margin-left: 30px;
 }
-h5{
+h6{
     font-size: 25px;
     line-height: 1.6;
     margin-bottom: 30px;
-    color: f9b233;
+    color: #f9b233;
+}
+h4{
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    color: #f9b233;
 }
 
 
