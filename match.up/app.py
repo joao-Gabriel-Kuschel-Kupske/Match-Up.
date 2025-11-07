@@ -86,7 +86,7 @@ def aula(nome):
     pdf_path = url_for('static', filename=f'aulas/{nome}.pdf')
     return render_template('aula.html', pdf_path=pdf_path)
 
-@app.route("/pagcursos")
+@app.route("/entrar")
 def pagcursos():
     arquivos = os.listdir('static/aulas')
     aulas = [a.replace(".pdf", "") for a in arquivos]
