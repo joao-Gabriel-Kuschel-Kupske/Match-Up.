@@ -92,12 +92,13 @@ h1{
 
 .principios1 {
   display: flex;
-  justify-content: flex-start; /* imagens começam à esquerda */
+  justify-content: center; /* imagens começam à esquerda */
+
   gap: 20px; /* espaço entre elas */
   padding: 20px 10px;
 }
 .principios1 img {
-  width: 300px; 
+  width: 400px; 
   height: auto;
 }
 h3 {
@@ -277,4 +278,3 @@ section, div {
     background-color: #2b2b2b
     padding: top 60xp;
 }
-
