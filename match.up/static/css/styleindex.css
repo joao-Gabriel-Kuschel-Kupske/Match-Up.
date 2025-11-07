@@ -48,36 +48,55 @@ h1 {
 
 .topo {
   /* imagem de fundo */
-   background: url('static/assets/imagens/fundo.jpg');
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   padding: 100px 20px;
-   width: 100%;
-   height: auto;
-  
+  background-image: url('../assets/imagens/fundo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2b2b2b;
+  text-align: center;
+
   /* espaçamento e alinhamento */
   text-align: center;
   padding: 100px 20px;
   position: relative;
 }
+h1{
+  font-size: 65px;
+  color: #ffffff;
+}
+.btn1 {
+    display: inline-block;
+    padding: 18px 60px;         /* Tamanho grande e retangular */
+    background-color: white;    /* Fundo branco */
+    color: black;               /* Texto preto */
+    border: none;               /* Sem borda */
+    border-radius: 0px;         /* Cantos levemente arredondados */
+    font-size: 18px;            /* Texto maior */
+    font-weight: 700;           /* Negrito */
+    text-decoration: none;      /* Remove o sublinhado */
+    cursor: pointer;            /* Mãozinha ao passar o mouse */
+    transition: 0.3s;           /* Efeito suave */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Sombra suave */
+}
+.btn1:hover {
+    background-color: #f5f5f5;  /* Leve cinza ao passar o mouse */
+    transform: scale(1.03);     /* Cresce um pouquinho */
+}
 
 
 /* fundo claro */
-.sobre {
-  background-color: #D0D0D0;
-  color: #2b2b2b;
-  padding: 80px 20px;
-  text-align: left;
-}
 
-.principios {
+.principios1 {
   display: flex;
   justify-content: flex-start; /* imagens começam à esquerda */
   gap: 20px; /* espaço entre elas */
   padding: 20px 10px;
 }
-.principios img {
+.principios1 img {
   width: 300px; 
   height: auto;
 }
@@ -87,11 +106,72 @@ h3 {
   font-size: 32px;
 }
 
-.secaosobre p{
-  color : #2e2e2e;
-  text-align: left;
-  font-size: 22px;
+
+.sobre{
+  background-color: #d0d0d0 ;
+  padding-top: 60px;
 }
+.sobre h2 {
+    color: #f9b233;                    
+    font-size: 36px;
+    font-weight: 800;
+    margin-left: 100px;
+    text-align: left;
+}
+.sobre h5 {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 30px 100px 70px 100px;
+    color: #2e2e2e;
+    text-align: left;
+    margin-left: 100px;
+}
+.logo2 {
+    width: 300px;                      
+    height: auto;
+    flex-shrink: 0;                    
+    margin-left: 30px;
+}
+h6{
+    font-size: 35px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #f9b233;
+}
+h4{
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 70px;
+    color: #f9b233;
+}
+
+.nos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:0px;
+  padding: 0px 50px;
+}
+.nos-texto{
+max-width: 600px;
+text-align: left;
+}
+.nos-texto h2{
+  color: #f9b233;
+  margin-bottom: 20px;
+}
+.nos-texto h5{
+  font-weight: normal;
+  line-height: 1.6;
+  color: #2e2e2e;
+}
+.nos-imagem img{
+  width: 400px;
+  height: auto;
+  display: block;
+}
+
+
 
 
 /* fundo escuro final */
@@ -101,17 +181,20 @@ h3 {
   text-align: center;
   color: #f4d03f;
 }
+  .autor {
+    margin-bottom: 100px;  /* AUMENTA O ESPAÇO ENTRE AUTOR E TÍTULO */
+}
 
 
 .equipe {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 35px;
 }
 .equipe img {
-  width: 80px;
-  border-radius: 50%;
+  width: 120px;
+  border-radius: 100%;
 }
 
 
@@ -150,5 +233,48 @@ h3 {
     grid-column: span 5 / span 5;
     grid-row-start: 5;
     background-color: #c5c6ff;
+}
+
+.footer {
+    background-color: #111;              /* fundo escuro */
+    color: #f9b233;                      /* amarelo da MathUp */
+    text-align: center;                  /* centraliza texto */
+    padding: 40px 20px;                  /* espaço interno */
+    margin-top: 60px;                    /* separa do conteúdo acima */
+}
+
+.footer-content h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    color: #ddd;                         /* cinza clarinho */
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;                           /* espaço entre links */
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #f9b233;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #2b2b2b;                      /* fica branco ao passar o mouse */
+}
+/* remove margem inferior de tudo antes do footer */
+
+section, div {
+    background-color: #2b2b2b
+    padding: top 60xp;
 }
 

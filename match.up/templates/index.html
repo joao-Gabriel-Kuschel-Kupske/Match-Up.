@@ -19,18 +19,28 @@
   </header>
 
   <section class="topo">
-    <h1>A matemática do jeito que as escolas não mostram</h1>
-    <!-- CORRETO: Usa 'entrar_pagina', que é a função que renderiza pag2.html -->
-    <a href="{{ url_for('entrar') }}" class="btn1">Entrar</a>
+
+    <div class="conteudo">  
+      <h1>A matemática do jeito que as escolas não mostram</h1>
+      <!-- CORRETO: Usa 'entrar_pagina', que é a função que renderiza pag2.html -->
+      <a href="{{ url_for('entrar') }}" class="btn1">Entrar</a>
+    </div>
+
   </section>
 
   <section class="sobre">
-    <h2>SOBRE NÓS</h2>
-    <p>A MATHUP surgiu como uma iniciativa de jovens apaixonados por matemática em tornar isso uma realidade mais próxima de cada criança, seja aquela que já sabe tudo ou a que quer aprender mais</p>
-    <img src="static/assets/imagens/logo2.png" alt="logo MathUp" class="logo2">
+   <div class="nos">
+     <div class="nos-texto">
+       <h2>SOBRE NÓS</h2>
+       <h5>A MATHUP surgiu como uma iniciativa de jovens apaixonados por matemática em tornar isso uma realidade mais próxima de cada criança, seja aquela que já sabe tudo ou a que quer aprender mais</h5>
+     </div>
+     <div class="nos-imagem">
+       <img src="static/assets/imagens/logo2.png" alt="logo MathUp" class="logo2">
+     </div>
+   </div>
 
     <h3>NOSSOS PRINCÍPIOS</h3>
-    <div class="principios">
+    <div class="principios1">
       <img src="static/assets/imagens/principio1.png" alt="Educação divertida">
       <img src="static/assets/imagens/principio2.png" alt="Qualidade">
       <img src="static/assets/imagens/principio3.png" alt="Inovação">
@@ -38,7 +48,7 @@
   </section>
 
   <section class="final">
-    <blockquote>"A essência da matemática está na sua liberdade."</blockquote>
+    <h6>"A essência da matemática está na sua liberdade."</h6>
     <p class="autor">— Georg Cantor</p>
 
     <h4>QUEM SOMOS NÓS?</h4>
@@ -52,4 +62,18 @@
   </section>
 
 </body>
+<footer class="footer">
+    <div class="footer-content">
+        <h4>MathUp © 2025</h4>
+        <p>Aprendizado acessível para todas as crianças.</p>
+
+        <div class="footer-links">
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+            <a href="#">Ajuda</a>
+        </div>
+    </div>
+</footer>
+
 </html>
