@@ -11,7 +11,11 @@
             <img src="static/assets/imagens/logo3.png" alt="logo MathUp" class="logo2">
         </div>
         <div class="espaco"></div>
-        <div class="aluno"><p>Área do aluno</p></div>
+       <a href="{{ url_for('area_aluno') }}" class="botao-aluno-link">
+    <div class="aluno">
+        <p>Área do Aluno</p>
+    </div>
+</a>
         <a href="{{ url_for('fracao')}}" class="fracoes"><div class="logo">
                 <img src="static/assets/imagens/logofracao.png" alt="logo fracao">
             </div>

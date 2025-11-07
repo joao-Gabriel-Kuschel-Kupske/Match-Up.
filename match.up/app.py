@@ -94,6 +94,9 @@ def fracao():
 @app.route('/introducao_a_geometria')
 def introducao_a_geometria():
    return render_template("geometria.html")
+@app.route('/area_aluno')
+def area_aluno():
+   return render_template("perfil.html")
 
 #------PDF aulas -------
 @app.route('/aulas/<nome>')
