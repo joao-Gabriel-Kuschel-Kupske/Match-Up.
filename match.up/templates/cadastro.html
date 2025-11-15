@@ -1,35 +1,42 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
-<head>
-   <meta charset="UTF-8">
-   <title>Cadastro</title>
-   <link rel="stylesheet" href="../static/css/stylecadastro.css">
-</head>
-<body>
-   <h1>Insira seus dados</h1>
-  
-   <!-- Ação CORRETA: Envia dados para a rota POST /salvar_dados -->
-   <form method="post" action="/salvar_dados">
+   <head>
+      <meta charset="UTF-8">
+      <title>Cadastro</title>
+      <link rel="stylesheet" href="../static/css/stylecadastro.css">
+   </head>
+   <body>
       
-       <label for="nome">Nome:</label><br>
-       <input type="text" id="nome" name="nome" required><br><br>
-      
-       <label for="email">Email:</label><br>
-       <!-- name="email" é usado no Python para pegar o valor -->
-       <input type="email" id="email" name="email" required><br><br>
-      
-       <label for="senha">Senha:</label><br>
-       <!-- name="senha" é usado no Python para pegar o valor -->
-       <input type="password" id="senha" name="senha" required><br><br>
+      <div class="logo">
+         <img src="../static/assets/imagens/logo.png" alt="Logo Match-Up">
+      </div>
 
 
-       <!-- Botão que ENCAMINHA o formulário para a rota /salvar_dados -->
-       <button type="submit" class="btn-submit">Cadastrar e Ir para Principal</button>
-   </form>
-  
-   <!-- Link para a página de Login -->
-   <p>Já tem uma conta? <a href="{{ url_for('entrar') }}">Fazer Login</a></p>
-</body>
+      <h2>VAMOS COMEÇAR!</h2>
+   
+      <!-- Ação CORRETA: Envia dados para a rota POST /salvar_dados -->
+      <form method="post" action="/salvar_dados">
+         
+         <label for="nome">Nome:</label><br>
+         <input type="text" id="nome" name="nome" required><br><br>
+         
+         <label for="email">Email:</label><br>
+         <!-- name="email" é usado no Python para pegar o valor -->
+         <input type="email" id="email" name="email" required><br><br>
+         
+         <label for="senha">Senha:</label><br>
+         <!-- name="senha" é usado no Python para pegar o valor -->
+         <input type="password" id="senha" name="senha" required><br><br>
+
+
+         <!-- Botão que ENCAMINHA o formulário para a rota /salvar_dados -->
+         <button type="submit" class="btn-submit">Cadastrar e Ir para Principal</button>
+      </form>
+   
+      <!-- Link para a página de Login -->
+      <p>Já tem uma conta? <a href="{{ url_for('entrar') }}">Fazer Login</a></p>
+   </body>
 </html>
 
 
