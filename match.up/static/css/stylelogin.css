@@ -60,7 +60,7 @@ header img {
     justify-content: center;
 }
 .cont-info {
-    width: 277px;
+    width: 300px;
     background-color: #D9D9D9;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
@@ -71,8 +71,9 @@ header img {
 }
 
 h2 {
-    margin-top: 15px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #000000;
     font-weight: normal;
 }
@@ -100,20 +101,23 @@ button {
 }
 
 .btn-submit {
-    background-color: #2B2B2B;
+    background-color: #616161;
     font-family: "Itim", sans-serif;
     font-size: 16px;
-    font-weight: normal;
-    color: #ffffff;
-    width: 100px;
+    font-weight: 550;
+    color: #000000;
+    width: 230px;
     height: 30px; 
     cursor: pointer;
 }
 
-.cont-info p {
-    margin-top: 13px;
-    margin-bottom: 8px;
-    font-size: 12px;
-    font-weight: 550;
+.btn-pg-cadastro {
+    width: 100px;
+    height: 30px;
+    margin: 30px;
+    background-color: #2B2B2B;
+    color: #ffffff;
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
 }
-
