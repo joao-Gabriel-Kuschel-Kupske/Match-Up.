@@ -1,10 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  color: white;
-}
-h1 {
-  color: #000;
+  color: rgb(17, 17, 17);
 }
 
 .cima{
@@ -13,19 +11,26 @@ h1 {
   align-items: center;
   background-color: #2b2b2b;
   padding:20px 40px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  border-bottom: 3px dotted #ffffff;
 }
 .logo img{
   height:70px;
 }
 .criar-link {
     display: inline-block;
-    padding: 10px 30px;           /* Tamanho do botão */
-    background-color: rgb(255, 254, 254);      /* Fundo branco */
+    padding: 10px 0px;           /* Tamanho do botão */
+    background-color: #d9d9d9;      /* Fundo branco */
     color: rgb(0, 0, 0);                 /* Texto preto */
     border: none;                 /* Sem borda */
     border-radius: 100px;         /* Cantos bem curvados */
     font-size: 16px;              /* Tamanho da fonte */
-    font-weight: 600;             /* Texto levemente em negrito */
+    font-weight: 400;             /* Texto levemente em negrito */
+    font-family: 'Poppins', sans-serif;
+    width: 120px;
+    text-align: center;
     text-decoration: none;        /* Remove o sublinhado */
     cursor: pointer;              /* Mãozinha ao passar o mouse */
     transition: 0.3s;             /* Animação suave */
@@ -46,6 +51,15 @@ h1 {
   transition: 0.3s;
 }
 
+#btn-cad-hd {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#btn-log-hd {
+  margin-left: 10px;
+}
+
 .topo {
   /* imagem de fundo */
   background-image: url('../assets/imagens/fundo.png');
@@ -61,26 +75,32 @@ h1 {
 
   /* espaçamento e alinhamento */
   text-align: center;
-  padding: 100px 20px;
+  padding: 40px 20px;
   position: relative;
 }
 h1{
-  font-size: 65px;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff;
+  margin-bottom: 50px;
+  font-weight: 450;
+  text-align: center;
+  width: 500px;
 }
 .btn1 {
     display: inline-block;
-    padding: 18px 60px;         /* Tamanho grande e retangular */
-    background-color: white;    /* Fundo branco */
-    color: black;               /* Texto preto */
-    border: none;               /* Sem borda */
-    border-radius: 0px;         /* Cantos levemente arredondados */
-    font-size: 18px;            /* Texto maior */
-    font-weight: 700;           /* Negrito */
-    text-decoration: none;      /* Remove o sublinhado */
-    cursor: pointer;            /* Mãozinha ao passar o mouse */
-    transition: 0.3s;           /* Efeito suave */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    padding: 18px 60px;        
+    background-color: #d9d9d9;   
+    color: black;              
+    border: none;              
+    border-radius:100px;     
+    font-size: 18px;        
+    font-weight: normal;         
+    text-decoration: none; 
+    font-family: 'Poppins', sans-serif;   
+    cursor: pointer;            
+    transition: 0.3s;         
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); 
 }
 .btn1:hover {
     background-color: #f5f5f5;  /* Leve cinza ao passar o mouse */
@@ -110,6 +130,7 @@ h3 {
 .sobre{
   background-color: #d0d0d0 ;
   padding-top: 60px;
+  border-top: 3px solid #2b2b2b;
 }
 .sobre h2 {
     color: #f9b233;                    
@@ -133,6 +154,7 @@ h3 {
     margin-left: 30px;
 }
 h6{
+    border: 3px solid #f9b233;
     font-size: 35px;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -151,6 +173,7 @@ h4{
   justify-content: space-between;
   gap:0px;
   padding: 0px 50px;
+  border-bottom: 1px solid #2b2b2b;
 }
 .nos-texto{
 max-width: 600px;
@@ -179,10 +202,11 @@ text-align: left;
   background-color: #1a1a1a;
   padding: 80px 20px; /* Espaçamento da seção */
   text-align: center;
-  color: #f4d03f;
+  color: #ffffff;
 }
   .autor {
     margin-bottom: 100px;  /* AUMENTA O ESPAÇO ENTRE AUTOR E TÍTULO */
+    color: #ffffff;
 }
 
 
@@ -240,10 +264,10 @@ text-align: left;
     color: #f9b233;                      /* amarelo da MathUp */
     text-align: center;                  /* centraliza texto */
     padding: 40px 20px;                  /* espaço interno */
-    margin-top: 60px;                    /* separa do conteúdo acima */
 }
 
 .footer-content h4 {
+    margin-top: 0px;
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -274,7 +298,6 @@ text-align: left;
 /* remove margem inferior de tudo antes do footer */
 
 section, div {
-    background-color: #2b2b2b
     padding: top 60xp;
 }
 
