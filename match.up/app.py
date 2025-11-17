@@ -83,8 +83,10 @@ def area_aluno():
 #------PDF aulas -------
 @app.route('/aulas/<nome>')
 def aula(nome):
-    pdf_path = url_for('static', filename=f'aulas/{nome}.pdf')
-    return render_template('aula.html', pdf_path=pdf_path)
+    pdf_filename= f"{nome}.pdf"
+    pdf_url = url_for('static', filename=f'aulas/{pdf_filename}')
+    return render_template('aula.html', pdf_filename=pdf_filename,
+        pdf_url=pdf_url)
 
 @app.route("/entrar")
 def pagcursos():

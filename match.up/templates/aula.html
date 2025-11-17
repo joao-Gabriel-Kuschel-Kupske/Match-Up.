@@ -8,8 +8,8 @@
 
 <body>
     <!-- exibição da aula, não alterar -->
-    <h1>Aula: {{ pdf_path.split('/')[-1].replace('.pdf', '').replace('_', ' ').title() }}</h1>
-    <iframe src="{{ pdf_path }}"></iframe>
+    <h1>Aula: {{ pdf_filename.replace(".pdf", "").replace("_", " ").title() }}</h1>
+    <iframe src="{{ pdf_url }}"></iframe>
 </body>
 
 </html>
