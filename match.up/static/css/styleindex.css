@@ -11,9 +11,7 @@ body {
   align-items: center;
   background-color: #2b2b2b;
   padding:20px 40px;
-  border-top: 3px solid #ffffff;
-  border-right: 3px solid #ffffff;
-  border-left: 3px solid #ffffff;
+
   border-bottom: 3px dotted #ffffff;
 }
 .logo img{
@@ -56,7 +54,7 @@ body {
 
 #btn-cad-hd {
   background-color: #000000;
-  color: #e41e1e;
+  color: #ffffff;
 }
 
 #btn-log-hd {
