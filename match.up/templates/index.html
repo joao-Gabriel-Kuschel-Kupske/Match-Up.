@@ -1,79 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>MathUp</title>
-  <link rel="stylesheet" href="static/css/styleindex.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>MathUp</title>
+    <link rel="stylesheet" href="../static/css/styleindex.css">
+  </head>
 
-  <header class="cima">
-  <div class="logo">
-    <img src="static/assets/imagens/logo.png" alt="logo" class="logo">
-  </div>
-  <div class="button">
-    <!-- CORREÇÃO: Usa 'formulario', que é a função que renderiza cadastro.html -->
-    <a href="{{ url_for('formulario') }}" class="criar-link">Cadastrar</a>
-    <a href="{{ url_for('formulario') }}" class="criar-link">Login</a>
-   </div>
-  </header>
+  <body>
 
-  <section class="topo">
+    <header class="cima">
+      <div class="logo">
+        <img src="../static/assets/imagens/logo.png" alt="logo" class="logo">
+      </div>
+      <div class="button">
+        <!-- CORREÇÃO: Usa 'formulario', que é a função que renderiza cadastro.html -->
+        <a href="{{ url_for('formulario') }}" class="criar-link" id="btn-cad-hd"><i>Cadastrar</i></a>
+        <a href="{{ url_for('formulario') }}" class="criar-link" id="btn-log-hd"><i>Login</i></a>
+      </div>
+    </header>
 
-    <div class="conteudo">  
-      <h1>A matemática do jeito que as escolas não mostram</h1>
-      <!-- CORRETO: Usa 'entrar_pagina', que é a função que renderiza pag2.html -->
-      <a href="{{ url_for('entrar') }}" class="btn1">Entrar</a>
-    </div>
+    <section class="topo">
+      <div class="conteudo">  
+        <h1>A matemática do jeito que as escolas não mostram</h1>
+        <!-- CORRETO: Usa 'entrar_pagina', que é a função que renderiza pag2.html -->
+        <a href="{{ url_for('entrar') }}" class="btn1"><i>Entrar</i></a>
+      </div>
+    </section>
 
-  </section>
-
-  <section class="sobre">
-   <div class="nos">
-     <div class="nos-texto">
-       <h2>SOBRE NÓS</h2>
-       <h5>A MATHUP surgiu como uma iniciativa de jovens apaixonados por matemática em tornar isso uma realidade mais próxima de cada criança, seja aquela que já sabe tudo ou a que quer aprender mais</h5>
-     </div>
-     <div class="nos-imagem">
-       <img src="static/assets/imagens/logo2.png" alt="logo MathUp" class="logo2">
-     </div>
-   </div>
-
-    <h3>NOSSOS PRINCÍPIOS</h3>
-    <div class="principios1">
-      <img src="static/assets/imagens/principio1.png" alt="Educação divertida">
-      <img src="static/assets/imagens/principio2.png" alt="Qualidade">
-      <img src="static/assets/imagens/principio3.png" alt="Inovação">
-    </div>
-  </section>
-
-  <section class="final">
-    <h6>"A essência da matemática está na sua liberdade."</h6>
-    <p class="autor">— Georg Cantor</p>
-
-    <h4>QUEM SOMOS NÓS?</h4>
-    <div class="equipe">
-      <div><img src="static/assets/imagens/ana.png" alt="Ana"><p>Ana Laura</p></div>
-      <div><img src="static/assets/imagens/amanda.png" alt="Amanda"><p>Amanda</p></div>
-      <div><img src="static/assets/imagens/isabela.png" alt="Isabela"><p>Isabela</p></div>
-      <div><img src="static/assets/imagens/joao.png" alt="João"><p>João</p></div>
-      <div><img src="static/assets/imagens/matheus.png" alt="Matheus"><p>Matheus</p></div>
-    </div>
-  </section>
-
-</body>
-<footer class="footer">
-    <div class="footer-content">
-        <h4>MathUp © 2025</h4>
-        <p>Aprendizado acessível para todas as crianças.</p>
-
-        <div class="footer-links">
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-            <a href="#">Ajuda</a>
+    <section class="sobre">
+      <div class="nos">
+        <div class="nos-imagem">
+          <img src="../static/assets/imagens/logo2.png" alt="logo MathUp" class="logo2">
         </div>
-    </div>
-</footer>
+        <div class="nos-texto">
+          <h2>SOBRE NÓS:</h2>
+          <h5>A MATHUP surgiu como uma iniciativa de jovens apaixonados por matemática em tornar isso uma realidade mais próxima de cada criança, seja aquela que já sabe tudo ou a que quer aprender mais.</h5>
+        </div>
+      </div>
+
+      <h3>NOSSOS PRINCÍPIOS</h3>
+
+      <div class="principios1">
+        <img src="../static/assets/imagens/principio1.png" alt="Educação divertida">
+        <img src="../static/assets/imagens/principio2.png" alt="Qualidade">
+        <img src="../static/assets/imagens/principio3.png" alt="Inovação">
+      </div>
+    </section>
+
+    <section class="final">
+      <h6>"A essência da matemática está na sua liberdade."</h6>
+      <p class="autor">— Georg Cantor</p>
+
+      <h4>QUEM SOMOS NÓS?</h4>
+
+      <div class="equipe">
+        <div><img src="../static/assets/imagens/ana.png" alt="Ana"><p>Ana Laura</p></div>
+        <div><img src="../static/assets/imagens/amanda.png" alt="Amanda"><p>Amanda</p></div>
+        <div><img src="../static/assets/imagens/isabela.png" alt="Isabela"><p>Isabela</p></div>
+        <div><img src="../static/assets/imagens/joao.png" alt="João"><p>João</p></div>
+        <div><img src="../static/assets/imagens/matheus.png" alt="Matheus"><p>Matheus</p></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-content">
+          <h4>MathUp © 2025</h4>
+          <p>Aprendizado acessível para todas as crianças.</p>
+
+          <div class="footer-links">
+              <a href="#">Início</a>
+              <a href="#">Sobre</a>
+              <a href="#">Contato</a>
+              <a href="#">Ajuda</a>
+          </div>
+      </div>
+    </footer>
+  </body>
+  
 
 </html>

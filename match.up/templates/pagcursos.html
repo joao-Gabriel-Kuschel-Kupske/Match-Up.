@@ -11,30 +11,20 @@
             <img src="static/assets/imagens/logo3.png" alt="logo MathUp" class="logo2">
         </div>
         <div class="espaco"></div>
-        <div class="aluno"><p>Área do aluno</p></div>
-        <a href="{{ url_for('fracao')}}" class="fracoes"><div class="logo">
-                <img src="static/assets/imagens/logofracao.png" alt="logo fracao">
-            </div>
-            <div class="nome"><p>Fração</p></div>
-        </a>
-        <a href="{{ url_for('multiplos_e_divisores')}}" class="sistemas">
-            <div class="logo">
-                <img src="static/assets/imagens/logodivisao.png" alt="logo sistema">
-            </div>
-            <div class="nome"><p>Dvisão</p></div>
-        </a>
-        <a href="{{ url_for('divisao_euclidiana')}}" class="equacoes">
-            <div class="logo">
-                <img src="static/assets/imagens/logomultiplos.png" alt="logo equacao">
-            </div>
-            <div class="nome"><p>Múltiplos</p></div>
-        </a>
-        <a href="{{ url_for('introducao_a_geometria')}}" class="geometria">
-            <div class="logo">
-                <img src="static/assets/imagens/logogeometria.png" alt="logo geometria">
-            </div>
-            <div class="nome"><p>Geometria</p></div>
-        </a>
+       <a href="{{ url_for('area_aluno') }}" class="botao-aluno-link">
+    <div class="aluno">
+        <p>Área do Aluno</p>
+    </div>
+</a>
+ <!-- exibir nomes das aulas já com a rota para a aula -->
+        {% for nome in aulas %}
+            <a href = "/aulas/{{ nome }}">
+                <div class = "logo">
+                    <img src="{{ url_for('static', filename='assets/imagens/logo' ~ nome ~ '.png') }}" alt="logo sistema">
+                </div>
+                <p>{{ nome.title() }}</p>
+            </a>
+        {% endfor %}
     </div>
 </body>
 </html>

@@ -1,10 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  color: white;
-}
-h1 {
-  color: #000;
+  color: rgb(17, 17, 17);
 }
 
 .cima{
@@ -13,19 +11,26 @@ h1 {
   align-items: center;
   background-color: #2b2b2b;
   padding:20px 40px;
+  border-top: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  border-left: 3px solid #ffffff;
+  border-bottom: 3px dotted #ffffff;
 }
 .logo img{
   height:70px;
 }
 .criar-link {
     display: inline-block;
-    padding: 10px 30px;           /* Tamanho do botão */
-    background-color: rgb(255, 254, 254);      /* Fundo branco */
+    padding: 10px 0px;           /* Tamanho do botão */
+    background-color: #d9d9d9;      /* Fundo branco */
     color: rgb(0, 0, 0);                 /* Texto preto */
     border: none;                 /* Sem borda */
     border-radius: 100px;         /* Cantos bem curvados */
     font-size: 16px;              /* Tamanho da fonte */
-    font-weight: 600;             /* Texto levemente em negrito */
+    font-weight: 400;             /* Texto levemente em negrito */
+    font-family: 'Poppins', sans-serif;
+    width: 120px;
+    text-align: center;
     text-decoration: none;        /* Remove o sublinhado */
     cursor: pointer;              /* Mãozinha ao passar o mouse */
     transition: 0.3s;             /* Animação suave */
@@ -35,7 +40,10 @@ h1 {
     transform: scale(1.05);       /* Leve aumento */
 }
 
-
+.button {
+  display: flex;
+  flex-direction: row;
+}
 
 .button button{
   border: none ;
@@ -46,13 +54,41 @@ h1 {
   transition: 0.3s;
 }
 
+#btn-cad-hd {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#btn-log-hd {
+  margin-left: 10px;
+}
+
+@media(max-width:550px) {
+
+  .button {
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  #btn-cad-hd {
+    margin-bottom: 10px;
+  }
+  #btn-log-hd {
+    margin-left: 0px;
+  }
+  .cima {
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+
+}
+
 .topo {
   /* imagem de fundo */
   background-image: url('../assets/imagens/fundo.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 50vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,26 +97,32 @@ h1 {
 
   /* espaçamento e alinhamento */
   text-align: center;
-  padding: 100px 20px;
+  padding: 40px 20px;
   position: relative;
 }
 h1{
-  font-size: 65px;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff;
+  margin-bottom: 50px;
+  font-weight: 450;
+  text-align: center;
+  width: 500px;
 }
 .btn1 {
     display: inline-block;
-    padding: 18px 60px;         /* Tamanho grande e retangular */
-    background-color: white;    /* Fundo branco */
-    color: black;               /* Texto preto */
-    border: none;               /* Sem borda */
-    border-radius: 0px;         /* Cantos levemente arredondados */
-    font-size: 18px;            /* Texto maior */
-    font-weight: 700;           /* Negrito */
-    text-decoration: none;      /* Remove o sublinhado */
-    cursor: pointer;            /* Mãozinha ao passar o mouse */
-    transition: 0.3s;           /* Efeito suave */
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    padding: 18px 60px;        
+    background-color: #d9d9d9;   
+    color: black;              
+    border: none;              
+    border-radius:100px;     
+    font-size: 18px;        
+    font-weight: normal;         
+    text-decoration: none; 
+    font-family: 'Poppins', sans-serif;   
+    cursor: pointer;            
+    transition: 0.3s;         
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); 
 }
 .btn1:hover {
     background-color: #f5f5f5;  /* Leve cinza ao passar o mouse */
@@ -93,9 +135,13 @@ h1{
 .principios1 {
   display: flex;
   justify-content: center; /* imagens começam à esquerda */
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d88d39638a85db9dd6a517d9f22e0ccb7c8d905
   gap: 20px; /* espaço entre elas */
   padding: 20px 10px;
+  flex-wrap: wrap;
 }
 .principios1 img {
   width: 400px; 
@@ -111,29 +157,32 @@ h3 {
 .sobre{
   background-color: #d0d0d0 ;
   padding-top: 60px;
+  border-top: 3px solid #2b2b2b;
 }
 .sobre h2 {
-    color: #f9b233;                    
+    color: #f9b233;  
+                      
     font-size: 36px;
     font-weight: 800;
-    margin-left: 100px;
     text-align: left;
 }
 .sobre h5 {
     font-size: 20px;
     line-height: 1.6;
-    margin: 30px 100px 70px 100px;
+    margin: 30px 100px 70px 0px;
     color: #2e2e2e;
     text-align: left;
-    margin-left: 100px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .logo2 {
     width: 300px;                      
     height: auto;
     flex-shrink: 0;                    
-    margin-left: 30px;
+    margin-left: 0px;
 }
 h6{
+    border: 3px solid #f9b233;
     font-size: 35px;
     line-height: 1.6;
     margin-bottom: 30px;
@@ -149,19 +198,30 @@ h4{
 .nos{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap:0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px;
   padding: 0px 50px;
+  padding-left: 35px;
+  border-bottom: 1px solid #2b2b2b;
+}
+@media (max-width:1004px) {
+  .nos {
+    padding-left: 50px;
+    gap: 0px;
+  }
 }
 .nos-texto{
-max-width: 600px;
-text-align: left;
+  max-width: 500px;
+  text-align: center;
 }
 .nos-texto h2{
   color: #f9b233;
   margin-bottom: 20px;
+  text-align: center;
 }
 .nos-texto h5{
+  text-align: justify;
   font-weight: normal;
   line-height: 1.6;
   color: #2e2e2e;
@@ -180,16 +240,18 @@ text-align: left;
   background-color: #1a1a1a;
   padding: 80px 20px; /* Espaçamento da seção */
   text-align: center;
-  color: #f4d03f;
+  color: #ffffff;
 }
   .autor {
     margin-bottom: 100px;  /* AUMENTA O ESPAÇO ENTRE AUTOR E TÍTULO */
+    color: #ffffff;
 }
 
 
 .equipe {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 35px;
 }
@@ -241,10 +303,10 @@ text-align: left;
     color: #f9b233;                      /* amarelo da MathUp */
     text-align: center;                  /* centraliza texto */
     padding: 40px 20px;                  /* espaço interno */
-    margin-top: 60px;                    /* separa do conteúdo acima */
 }
 
 .footer-content h4 {
+    margin-top: 0px;
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -274,7 +336,10 @@ text-align: left;
 }
 /* remove margem inferior de tudo antes do footer */
 
+<<<<<<< HEAD
 section, div {
     background-color: #2b2b2b
     padding: top 60xp;
 }
+=======
+>>>>>>> 0d88d39638a85db9dd6a517d9f22e0ccb7c8d905

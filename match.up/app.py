@@ -76,24 +76,9 @@ def salvar_dados():
 #---- Demais Funções (Rotas de Conteúdo) ------ 
 # (Estas rotas estão corretas e não precisam de mudança)
 
-@app.route('/divisao_euclidiana')
-def divisao_euclidiana():
-   return render_template("divisao.html")
-
-
-@app.route('/multiplos_e_divisores')
-def multiplos_e_divisores():
-   return render_template("multiplos_e_div.html")
-
-
-@app.route('/fracao')
-def fracao():
-   return render_template("fração.html")
-
-
-@app.route('/introducao_a_geometria')
-def introducao_a_geometria():
-   return render_template("geometria.html")
+@app.route('/area_aluno')
+def area_aluno():
+   return render_template("perfil.html")
 
 #------PDF aulas -------
 @app.route('/aulas/<nome>')
@@ -101,11 +86,11 @@ def aula(nome):
     pdf_path = url_for('static', filename=f'aulas/{nome}.pdf')
     return render_template('aula.html', pdf_path=pdf_path)
 
-@app.route("/")
-def index():
+@app.route("/entrar")
+def pagcursos():
     arquivos = os.listdir('static/aulas')
     aulas = [a.replace(".pdf", "") for a in arquivos]
-    return render_template("cursos.html", aulas=aulas)
+    return render_template("pagcursos.html", aulas=aulas)
 
 # ---- Execução --------- 
 
