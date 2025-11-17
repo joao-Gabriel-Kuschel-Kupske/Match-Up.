@@ -99,11 +99,11 @@ body {
   position: relative;
 }
 h1{
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Inria Sans', sans-serif;
   color: #ffffff;
-  margin-bottom: 50px;
-  font-weight: 450;
+  margin-bottom: 70px;
+  font-weight: 2000;
   text-align: center;
   width: 500px;
 }
@@ -133,18 +133,16 @@ h1{
 .principios1 {
   display: flex;
   justify-content: center; /* imagens começam à esquerda */
-<<<<<<< HEAD
 
-=======
->>>>>>> 0d88d39638a85db9dd6a517d9f22e0ccb7c8d905
   gap: 20px; /* espaço entre elas */
   padding: 20px 10px;
   flex-wrap: wrap;
 }
 .principios1 img {
-  width: 400px; 
+  width: 300px; 
   height: auto;
 }
+
 h3 {
   color: #8c52ff;
   text-align: center;
@@ -156,6 +154,7 @@ h3 {
   background-color: #d0d0d0 ;
   padding-top: 60px;
   border-top: 3px solid #2b2b2b;
+  margin-bottom: 60px; /* distância entre cinza e preto */
 }
 .sobre h2 {
     color: #f9b233;  
@@ -201,7 +200,7 @@ h4{
   gap: 30px;
   padding: 0px 50px;
   padding-left: 35px;
-  border-bottom: 1px solid #2b2b2b;
+
 }
 @media (max-width:1004px) {
   .nos {
@@ -297,7 +296,7 @@ h4{
 }
 
 .footer {
-    background-color: #111;              /* fundo escuro */
+    background-color: #1b1b1b;              /* fundo escuro */
     color: #f9b233;                      /* amarelo da MathUp */
     text-align: center;                  /* centraliza texto */
     padding: 40px 20px;                  /* espaço interno */
@@ -334,10 +333,3 @@ h4{
 }
 /* remove margem inferior de tudo antes do footer */
 
-<<<<<<< HEAD
-section, div {
-    background-color: #2b2b2b
-    padding: top 60xp;
-}
-=======
->>>>>>> 0d88d39638a85db9dd6a517d9f22e0ccb7c8d905
