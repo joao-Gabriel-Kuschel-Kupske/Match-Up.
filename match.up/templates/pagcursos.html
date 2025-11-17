@@ -18,7 +18,7 @@
 </a>
  <!-- exibir nomes das aulas já com a rota para a aula -->
         {% for nome in aulas %}
-            <a href = "/aulas/{{ nome }}">
+             <a href="{{ url_for('aula', nome=nome) }}">
                 <div class = "logo">
                     <img src="{{ url_for('static', filename='assets/imagens/logo' ~ nome ~ '.png') }}" alt="logo sistema">
                 </div>
