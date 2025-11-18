@@ -17,12 +17,12 @@
     </div>
 </a>
  <!-- exibir nomes das aulas já com a rota para a aula -->
-        {% for nome in aulas %}
-             <a href="{{ url_for('aula', nome=nome) }}">
+        {% for materia in aulas %}
+             <a href="{{ url_for('aula', nome=materia) }}">
                 <div class = "logo">
-                    <img src="{{ url_for('static', filename='assets/imagens/logo' ~ nome ~ '.png') }}" alt="logo sistema">
+                    <img src="{{ url_for('static', filename='assets/imagens/logo' ~ materia ~ '.png') }}" alt="logo sistema">
                 </div>
-                <p>{{ nome.title() }}</p>
+                <p>{{materia.title() }}</p>
             </a>
         {% endfor %}
     </div>
