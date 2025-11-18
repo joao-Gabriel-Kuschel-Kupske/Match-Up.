@@ -13,9 +13,14 @@
         <div class="espaco"></div>
        <a href="{{ url_for('area_aluno') }}" class="botao-aluno-link">
     <div class="aluno">
+
         <p>Área do Aluno</p>
     </div>
 </a>
+
+<section class="cursos">
+          <button class="Fração">Botão</button>
+    </section>
  <!-- exibir nomes das aulas já com a rota para a aula -->
         {% for materia in aulas %}
              <a href="{{ url_for('aula', nome=materia) }}">
