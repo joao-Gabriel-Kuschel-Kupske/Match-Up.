@@ -31,6 +31,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s;
+}
+
+.round-btn:hover {
+  background-color: #ff894a;
+  transform: scale(1.05);
 }
 
 .profile-container {

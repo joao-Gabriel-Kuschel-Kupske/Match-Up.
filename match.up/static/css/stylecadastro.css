@@ -97,6 +97,12 @@ form {
 
 button {
     all: unset;
+    cursor: pointer;            
+    transition: 0.3s;            
+}
+button:hover{
+    background-color: #000000;
+    transform: scale(1.05);
 }
 
 .btn-submit {
